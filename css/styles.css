@@ -1,0 +1,227 @@
+:root{
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --accent-color: #2196F3;
+    --button-color:#188ce8;
+    --logo-second-part-color:#000000;
+    --title-white-color:#ffffff;
+    --dark-background-color:#2f303a;
+    --ligt-background-color:#f5f4fa;
+}
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background-color: var(--title-white-color);
+    color: var(--primary-text-color)
+}
+
+.list {
+    list-style: none;
+}
+ 
+/* -- Логотип-- */
+.logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.logo-second-part{
+    color: var(--logo-second-part-color);
+}
+
+.footer-logo-second-part{
+    color: var(--title-white-color);
+}
+
+/*  Меню */
+
+.navigation-link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+    color: var(--accent-color);
+}
+
+.navigation-link.current {
+    color: var(--accent-color);
+}
+
+.contact-list .link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.contact-list .link:hover,
+.contact-list .link:focus {
+    color: var(--accent-color);
+}
+
+/* Герой */
+
+.hero-title{
+    color: var(--title-white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.hero{
+    background-color: var(--dark-background-color);
+ }
+
+
+ .hero-button {
+     font-family: inherit;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 1.88;
+     text-align: center;
+     letter-spacing: 0.06em;
+     color: var(--title-white-color);
+     background-color: var(--button-color);
+     cursor: pointer;
+ }
+
+ .hero-button:hover,
+ .hero-button:focus {
+     background-color: var(--accent-color);
+ }
+
+ .section-title {
+     font-weight: 700;
+     font-size: 36px;
+     line-height: 1.17;
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: var(--title-text-color);
+ }
+
+/* Особливості */
+
+ .feature-title {
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: var(--title-text-color);
+ }
+
+ .feature-describe {
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+    text-transform: none;
+ }
+
+
+ /* Наша команда */
+ .section-command {
+     background-color: var(--ligt-background-color);
+ }
+
+.member-item {
+    background-color: var(--title-white-color);
+}
+
+.member-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.member-descr {
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+
+/* Портфолио */
+.portfolio-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--title-white-color);
+    cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus,
+.portfolio-button.current {
+    color: var(--title-white-color);
+    background-color: var(--accent-color);
+}
+
+.portfolio-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+}
+
+.portfolio-description {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+
+/* Footer */
+
+
+.footer{
+    background-color: var(--dark-background-color);
+
+}
+
+.address-list .link {
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-white-color);
+    text-decoration: none;
+}
+
+.address-list .contact-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Схований текс */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
